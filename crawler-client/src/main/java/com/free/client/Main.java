@@ -13,7 +13,7 @@ public class Main {
 
         IDubboDemo dubboDemo = (IDubboDemo)context.getBean ("dubboDemo");// 获取远程服务代理
         long begin=System.currentTimeMillis();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 10; i++) {
 //        	String hello = dubboDemo.sayHello("红红火火恍恍惚惚");
         	dubboDemo.sayHello("红红火火恍恍惚惚");
 		}

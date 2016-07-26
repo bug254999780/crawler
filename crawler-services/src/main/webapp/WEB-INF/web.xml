@@ -10,18 +10,25 @@
     <listener-class>org.springframework.web.util.WebAppRootListener</listener-class>
   </listener>
    -->
-   <listener>
+  <!--  <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
-  <!-- <listener>
+   --><!-- <listener>
     <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
   </listener>  -->
     
-  <context-param>
-    	<param-name>contextConfigLocation</param-name>
-    	<param-value>classpath*:/spring.xml</param-value>
-  </context-param>
-  
+ <!--Spring 的配置 -->
+   <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath*:spring.xml</param-value>
+    </context-param>
+    <!-- 配置Spring的启动监听器 -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+ <!--  <listener>  
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>  
+    </listener> -->
   <!-- <filter>
     <filter-name>encodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

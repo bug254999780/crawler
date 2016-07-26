@@ -19,10 +19,10 @@
 	<context:component-scan base-package="com.free.clawler.*" />
 
 	<!-- 提供方应用信息，用于计算依赖关系 -->
-	<dubbo:application name="${provider}" />
+	<dubbo:application name="crawler-user" />
 	<!-- 使用zookeeper注册中心暴露服务地址 -->
-	<dubbo:registry address="${address}" />
-	<dubbo:protocol name="dubbo" port="${dubbo_port}" dispatcher="all"
+	<dubbo:registry address="zookeeper://192.168.191.188:2181" />
+	<dubbo:protocol name="dubbo" port="20880" dispatcher="all"
 		threadpool="fixed"  />
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.free.clawler.user.api.v1.IDubboDemo"
