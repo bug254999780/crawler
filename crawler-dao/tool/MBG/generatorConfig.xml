@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<classPathEntry location="tool/MBG/mysql-connector-java-5.1.12.jar" />
+
+	<context id="ho" targetRuntime="MyBatis3" defaultModelType="flat">
+
+		<property name="javaFileEncoding" value="UTF-8" />
+		<!-- 格式化java代码 -->
+    	<property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+	    <!-- 格式化XML代码 -->
+	    <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+
+		<commentGenerator>
+			<property name="suppressDate" value="true" />
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://192.168.191.188:3306/crawler_db1" userId="crawler"
+			password="crawler@C123">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<javaModelGenerator targetPackage="com.free.user.model"
+			targetProject="src/main/java">
+			<property name="enableSubPackages" value="false" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="mybatis.sqlmap.user"
+			targetProject="src/main/resources">
+			<property name="enableSubPackages" value="false" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.free.user.mapper" targetProject="src/main/java">
+			<property name="enableSubPackages" value="false" />
+		</javaClientGenerator>
+		
+
+		
+		
+		 <table tableName="base_user" domainObjectName="BaseUser">
+			<property name="useActualColumnNames" value="true"/>
+			<generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type="post"/>
+			<columnOverride column="user_name" property="userName"/>
+			<columnOverride column="create_time" property="createTime"/>
+			<columnOverride column="update_time" property="updateTime"/>
+			
+		</table> 
+		
+		
+	</context>
+
+</generatorConfiguration>

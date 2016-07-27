@@ -1,0 +1,209 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.crawler</groupId>
+		<artifactId>crawler-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>crawler-base</artifactId>
+	<name>crawler-base</name>
+	<description>crawler-base</description>
+		<properties>  
+        <!-- spring版本号 -->  
+        <spring.version>4.2.5.RELEASE</spring.version>  
+        <!-- mybatis版本号 -->  
+        <mybatis.version>3.2.6</mybatis.version>  
+        <!-- log4j日志文件管理包版本 -->  
+        <slf4j.version>1.7.7</slf4j.version>  
+        <log4j.version>1.2.17</log4j.version>  
+    </properties>  
+	<build>
+
+		<plugins>
+			<!-- maven sql -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>sql-maven-plugin</artifactId>
+				<version>1.5</version>
+				<dependencies>
+					<dependency>
+						<groupId>mysql</groupId>
+						<artifactId>mysql-connector-java</artifactId>
+						<version>5.1.25</version>
+					</dependency>
+				</dependencies>
+				<configuration>
+					<driver>${env.jdbc_driverClassName}</driver>
+					<url>${env.alidd_jdbc_url}</url>
+					<username>${env.jdbc_username}</username>
+					<password>${env.jdbc_password}</password>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.ibatis/ibatis-core -->
+		<!-- <dependency>
+			<groupId>org.apache.ibatis</groupId>
+			<artifactId>ibatis-core</artifactId>
+			<version>3.0</version>
+		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+		<dependency>
+			<groupId>com.101tec</groupId>
+			<artifactId>zkclient</artifactId>
+			<version>0.9</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>3.4.8</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>jmxtools</artifactId>
+					<groupId>com.sun.jdmk</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jmxri</artifactId>
+					<groupId>com.sun.jmx</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jms</artifactId>
+					<groupId>javax.jms</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>2.5.3</version>
+			<scope>compile</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>spring</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.2.5.RELEASE</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.2.5.RELEASE</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>4.2.5.RELEASE</version>
+		</dependency>
+				<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>4.2.5.RELEASE</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>4.2.5.RELEASE</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.4</version>
+		</dependency>
+
+		<!-- 阿里池 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>0.2.12</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.30</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+			<scope>provided</scope>
+		</dependency>
+		 <!-- 日志文件管理包 -->  
+        <!-- log start -->  
+        <dependency>  
+            <groupId>log4j</groupId>  
+            <artifactId>log4j</artifactId>  
+            <version>${log4j.version}</version>  
+        </dependency>  
+          
+          
+        <!-- 格式化对象，方便输出日志 -->  
+        <dependency>  
+            <groupId>com.alibaba</groupId>  
+            <artifactId>fastjson</artifactId>  
+            <version>1.1.41</version>  
+        </dependency>  
+  
+  
+        <dependency>  
+            <groupId>org.slf4j</groupId>  
+            <artifactId>slf4j-api</artifactId>  
+            <version>${slf4j.version}</version>  
+        </dependency>  
+  
+        <dependency>  
+            <groupId>org.slf4j</groupId>  
+            <artifactId>slf4j-log4j12</artifactId>  
+            <version>${slf4j.version}</version>  
+        </dependency>  
+        <!-- log end --> 
+        <!-- mybatis核心包 -->  
+        <dependency>  
+            <groupId>org.mybatis</groupId>  
+            <artifactId>mybatis</artifactId>  
+            <version>${mybatis.version}</version>  
+        </dependency>  
+        
+        <!-- mybatis/spring包 -->  
+        <dependency>  
+            <groupId>org.mybatis</groupId>  
+            <artifactId>mybatis-spring</artifactId>  
+            <version>1.2.2</version>  
+        </dependency> 
+	</dependencies>
+
+
+</project>
