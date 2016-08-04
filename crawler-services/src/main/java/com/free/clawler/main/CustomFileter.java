@@ -1,0 +1,36 @@
+package com.free.clawler.main;
+
+import java.io.IOException;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+
+@WebFilter(filterName = "CustomFileter", urlPatterns = "/*")
+public class CustomFileter implements Filter {
+
+    @Override
+    public void destroy() {
+
+    }
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        request.setAttribute("begin-time", System.currentTimeMillis());
+        // StopWatch stopWatch = new StopWatch(request.getLocalAddr()+"::"+System.currentTimeMillis());
+        // stopWatch.start();
+        // // doFilter(request, response);
+        // stopWatch.stop();
+        chain.doFilter(request, response);
+    }
+
+    @Override
+    public void init(FilterConfig arg0) throws ServletException {
+        System.out.println(this.getClass().getName() + "=========init  ");
+    }
+
+}
