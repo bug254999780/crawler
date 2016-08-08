@@ -8,9 +8,8 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
 
-@WebFilter(filterName = "CustomFileter", urlPatterns = "/*")
+//@WebFilter(filterName = "CustomFileter", urlPatterns = "/*")
 public class CustomFileter implements Filter {
 
     @Override
@@ -20,11 +19,7 @@ public class CustomFileter implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        request.setAttribute("begin-time", System.currentTimeMillis());
-        // StopWatch stopWatch = new StopWatch(request.getLocalAddr()+"::"+System.currentTimeMillis());
-        // stopWatch.start();
-        // // doFilter(request, response);
-        // stopWatch.stop();
+        // request.setAttribute("begin-time", System.currentTimeMillis());;
         chain.doFilter(request, response);
     }
 

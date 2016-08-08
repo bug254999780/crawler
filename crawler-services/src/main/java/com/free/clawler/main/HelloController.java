@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
     @RequestMapping("/index")
     public String hello(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println(request.getAttribute("begin-time"));
         return "index";
     }
 
@@ -29,7 +28,7 @@ public class HelloController {
 
     @RequestMapping("/index3")
     @ResponseBody
-    public String hello3(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    public String hello3(HttpServletRequest request, HttpServletResponse response) throws InterruptedException {
         return "2343243";
     }
 }
