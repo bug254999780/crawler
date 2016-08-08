@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crawler-api.iml" filepath="$PROJECT_DIR$/crawler-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler-base.iml" filepath="$PROJECT_DIR$/crawler-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler-client.iml" filepath="$PROJECT_DIR$/crawler-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler-dao.iml" filepath="$PROJECT_DIR$/crawler-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler-parent.iml" filepath="$PROJECT_DIR$/crawler-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler-services.iml" filepath="$PROJECT_DIR$/crawler-services.iml" />
+    </modules>
+  </component>
+</project>

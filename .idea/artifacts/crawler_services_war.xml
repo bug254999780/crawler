@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crawler-services:war">
+    <output-path>$PROJECT_DIR$/crawler-services/target</output-path>
+    <root id="archive" name="crawler-parent.war">
+      <element id="artifact" artifact-name="crawler-services:war exploded" />
+    </root>
+  </artifact>
+</component>
