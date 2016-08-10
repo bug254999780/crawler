@@ -3,10 +3,12 @@
 	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
 	<contentEntry url="file://$MODULE_DIR$">
 		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
 	<lib name="Maven: org.apache.maven:maven-aether-provider:3.0" scope="RUNTIME"/>
 	<levels>
+		<level name="Maven: org.apache.maven.plugins:maven-resources-plugin:3.0.0" value="project"/>
 		<level name="Maven: org.apache.maven:maven-plugin-api:3.0" value="project"/>
 		<level name="Maven: org.apache.maven:maven-model:3.0" value="project"/>
 		<level name="Maven: org.apache.maven:maven-artifact:3.0" value="project"/>

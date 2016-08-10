@@ -27,6 +27,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.maven.plugins:maven-resources-plugin:3.0.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.maven:maven-plugin-api:3.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.maven:maven-model:3.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.maven:maven-artifact:3.0"/>

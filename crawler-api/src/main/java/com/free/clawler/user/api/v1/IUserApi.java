@@ -1,6 +1,7 @@
 package com.free.clawler.user.api.v1;
 
-import com.free.user.model.BaseUser;
+
+import com.free.dao.user.model.BaseUser;
 
 public interface IUserApi {
 	BaseUser getUser();

@@ -1,7 +1,7 @@
-package com.free.user.mapper;
+package com.free.dao.user.mapper;
 
-import com.free.user.model.BaseUser;
-import com.free.user.model.BaseUserExample;
+import com.free.dao.user.model.BaseUser;
+import com.free.dao.user.model.BaseUserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

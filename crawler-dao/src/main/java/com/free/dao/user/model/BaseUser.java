@@ -1,4 +1,4 @@
-package com.free.user.model;
+package com.free.dao.user.model;
 
 import java.io.Serializable;
 import java.util.Date;

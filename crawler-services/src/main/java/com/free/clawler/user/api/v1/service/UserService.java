@@ -1,8 +1,8 @@
 package com.free.clawler.user.api.v1.service;
 
 import com.free.clawler.user.api.v1.IUserApi;
-import com.free.user.mapper.BaseUserMapper;
-import com.free.user.model.BaseUser;
+import com.free.dao.user.mapper.BaseUserMapper;
+import com.free.dao.user.model.BaseUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

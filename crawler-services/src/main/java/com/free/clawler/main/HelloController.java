@@ -1,7 +1,7 @@
 package com.free.clawler.main;
 
 import com.free.clawler.user.api.v1.IUserApi;
-import com.free.user.model.BaseUser;
+import com.free.dao.user.model.BaseUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

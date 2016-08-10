@@ -1,4 +1,4 @@
-package com.free.user.model;
+package com.free.dao.user.model;
 
 import java.util.ArrayList;
 import java.util.Date;

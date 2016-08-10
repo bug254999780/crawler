@@ -21,7 +21,7 @@
 		</commentGenerator>
 
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://192.168.191.188:3306/crawler_db1" userId="crawler"
+			connectionURL="jdbc:mysql://120.26.198.195:3306/crawler_db1" userId="crawler"
 			password="crawler@C123">
 		</jdbcConnection>
 
@@ -29,7 +29,7 @@
 			<property name="forceBigDecimals" value="false" />
 		</javaTypeResolver>
 
-		<javaModelGenerator targetPackage="com.free.user.model"
+		<javaModelGenerator targetPackage="com.free.dao.user.model"
 			targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
 			<property name="trimStrings" value="true" />
@@ -41,7 +41,7 @@
 		</sqlMapGenerator>
 
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.free.user.mapper" targetProject="src/main/java">
+			targetPackage="com.free.dao.user.mapper" targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		

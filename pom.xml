@@ -40,9 +40,6 @@
 		</repository>
 	</repositories>
 
-	<!-- <scm> <connection>scm:git:git@git.hunteron.com:hr-app.git</connection> 
-		<developerConnection>scm:git:git@git.hunteron.com:hr-app.git</developerConnection> 
-		</scm> -->
 	<profiles>
 		<profile>
 			<id>ndev</id>
