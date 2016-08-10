@@ -26,33 +26,32 @@ public class DataSourceConfig {
     @Value("${jdbc.password}")
     String passWord;
     @Value("${jdbc.maxActive}")
-    Integer maxActive;
+    String maxActive;
     @Value("${jdbc.maxIdle}")
-    Integer maxIdle;
+    String maxIdle;
     @Value("${jdbc.minIdle}")
-    Integer minIdle;
+    String minIdle;
     @Value("${jdbc.maxWait}")
-    Integer maxWait;
+    String maxWait;
     @Value("${jdbc.initialSize}")
-    Integer initialSize;
+    String initialSize;
 
     @Bean(name = "dataSource")
     public DataSource dataSource() {
-        System.out.println(initialSize+""+maxActive);
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setDriverClassName(driverClass);
         dataSource.setUrl(url);
         dataSource.setUsername(userName);
         dataSource.setPassword(passWord);
-        dataSource.setInitialSize(initialSize);
-        dataSource.setMinIdle(minIdle);
-        dataSource.setMaxActive(maxActive);
-        dataSource.setMaxWait(maxWait);
+//        dataSource.setInitialSize(Integer.parseInt(initialSize));
+//        dataSource.setMinIdle(Integer.parseInt(minIdle));
+//        dataSource.setMaxActive(Integer.parseInt(maxActive));
+//        dataSource.setMaxWait(Integer.parseInt(maxWait));
         dataSource.setTimeBetweenEvictionRunsMillis(30000);
         dataSource.setValidationQuery("select  'x' ");
-        dataSource.setTestWhileIdle(true);
-        dataSource.setTestOnBorrow(false);
-        dataSource.setTestOnReturn(false);
+//        dataSource.setTestWhileIdle(true);
+//        dataSource.setTestOnBorrow(false);
+//        dataSource.setTestOnReturn(false);
         return dataSource;
     }
 
