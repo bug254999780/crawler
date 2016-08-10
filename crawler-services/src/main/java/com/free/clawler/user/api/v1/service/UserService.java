@@ -1,19 +1,19 @@
 package com.free.clawler.user.api.v1.service;
 
 import com.free.clawler.user.api.v1.IUserApi;
-import com.free.dao.user.mapper.BaseUserMapper;
 import com.free.dao.user.model.BaseUser;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserService implements IUserApi {
-	@Autowired
-	private BaseUserMapper baseUserMapper;
+//	@Autowired
+//	private BaseUserMapper baseUserMapper;
 	@Override
 	public boolean addUser(BaseUser baseUser) {
-		baseUserMapper.insert(baseUser);
-		return true;
+//		int flag=baseUserMapper.insertSelective(baseUser);
+//		return  flag>0;
+		System.out.printf("test");
+		return  true;
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class UserService implements IUserApi {
 
 	@Override
 	public BaseUser getUser() {
-
+		// TODO Auto-generated method stub
 		return null;
 	}
 
