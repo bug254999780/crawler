@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T10:00:43.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="0sfbe2U5CH2IWjOuQfm0" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T10:01:04.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="BhLskAk_IxUZlnM3A3th" version="18.0.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="860" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,22 +244,22 @@
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-85" value="基础软件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="80" y="700" width="757.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-87" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#66B2FF;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-87" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="181" y="710" width="75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-88" value="分布式缓存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#66B2FF;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-88" value="分布式缓存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="286.5" y="710" width="75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-89" value="文件服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#66B2FF;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-89" value="文件服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="394" y="710" width="75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-90" value="消息队列" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#66B2FF;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-90" value="消息队列" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="504" y="710" width="75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-91" value="分布式ID生成器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="865" y="489.31" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-92" value="大数据服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#66B2FF;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-92" value="大数据服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="611.5" y="710" width="75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-93" value="搜索中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
