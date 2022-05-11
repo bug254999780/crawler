@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T09:48:02.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qZU4oMida5YeZ_GWJZ7W" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T09:48:34.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="m3pU9_mwzmtqmWjJ3eiQ" version="18.0.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="860" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="jzkBfL2sS72XlxoqL9Gl-48" value="自建仓储" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="546.5" y="367.97" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jzkBfL2sS72XlxoqL9Gl-56" value="内部依赖" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#00FFFF;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="jzkBfL2sS72XlxoqL9Gl-56" value="内部依赖" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="80" y="580" width="760" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jzkBfL2sS72XlxoqL9Gl-58" value="激活中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
@@ -208,7 +208,7 @@
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-64" value="产品中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="579" y="590" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-65" value="第三方系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#00FFFF;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-65" value="第三方系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="80" y="628" width="760" height="62" as="geometry" />
         </mxCell>
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-66" value="支付宝" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
@@ -241,7 +241,7 @@
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-75" value="华润三九" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="397" y="664.5" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-85" value="基础服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#00CCCC;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-85" value="基础服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="80" y="700" width="757.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-87" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#66B2FF;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
