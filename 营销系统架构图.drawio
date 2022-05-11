@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T10:04:50.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="mZNSeUHYkTVtIyJ05YY7" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T10:12:12.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Q9rykmnphHAGEL5Vx18B" version="18.0.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="860" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NsM7H4fsBOIml_j-Qu_d-109" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;gradientDirection=south;glass=1;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-109" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;gradientDirection=north;glass=1;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="40" width="1040" height="980" as="geometry" />
         </mxCell>
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-59" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
@@ -288,6 +288,9 @@
         </mxCell>
         <mxCell id="NsM7H4fsBOIml_j-Qu_d-108" value="硬件层" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="121" y="908" width="757.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NsM7H4fsBOIml_j-Qu_d-111" value="&lt;font color=&quot;#330000&quot;&gt;商城中心&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=1;dashed=1;dashPattern=1 1;sketch=0;fontSize=19;fillColor=#CCE5FF;gradientDirection=north;strokeColor=#D4E1F5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="468" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
